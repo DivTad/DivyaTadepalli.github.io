@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html>
+	<title>Divya Tadepalli</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+		.w3-row-padding img {margin-bottom: 12px}
+		.w3-sidebar {width: 120px; background: #1A1A1A;}
+		.bnchl {color: #FBFBFB;}
+		.profileimg {width: 400px; height:400px; border-radius:50%}
+		.footerhlnk {font-weight:bold; text-decoration:none}
+		.flip-card {background-color: transparent; width: 450px; height: 150px;  perspective: 1000px;}
+		.flip-card-inner {position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; transform-style: preserve-3d;  box-shadow: 0 4px 8px 0 rgba(255,255,255,0.6);}
+		.flip-card:hover .flip-card-inner {transform: rotateX(180deg);}
+		.flip-card-front, .flip-card-back {position: absolute; width: 100%; height: 100%; -webkit-backface-visibility: hidden; backface-visibility: hidden;}
+		.flip-card-front {background-color: #000000;}
+		.flip-card-back {background-color: #000000; transform: rotateX(180deg);}
+		#main {margin-left: 120px}
+		@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+	</style>
+
+	<body class="w3-black">
+
+		<!-- Navigation Bar -->
+		<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+			<img src="img/profilepic.png" style="width:100%">
+			<a href="#" class="w3-bar-item w3-button w3-padding-large w3-black"><i class="fa fa-home w3-xxlarge"></i><p>Home</p></a> 
+			<a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black"><i class="fa fa-user w3-xxlarge"></i><p>About</p></a>
+			<a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black"><i class="fa fa-cogs w3-xxlarge"></i><p>Projects</p></a>
+			<a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hover-black"><i class="fa fa-book w3-xxlarge"></i><p>Education</p></a>
+			<a href="#achievements" class="w3-bar-item w3-button w3-padding-large w3-hover-black"><i class="fa fa-graduation-cap w3-xxlarge"></i><p>Merits</p></a>
+			<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black"><i class="fa fa-envelope w3-xxlarge"></i><p>Contact</p></a>
+		</nav>
+
+		<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+			<div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+				<a href="#" class="w3-bar-item w3-button" style="width:25% !important">Home</a>
+				<a href="#about" class="w3-bar-item w3-button" style="width:25% !important">About</a>
+				<a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">Projects</a>
+				<a href="#education" class="w3-bar-item w3-button" style="width:25% !important">Education</a>
+				<a href="#achievements" class="w3-bar-item w3-button" style="width:25% !important">Merits</a>
+				<a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">Contact</a>
+			</div>
+		</div>
+
+		<!-- Page Content -->
+		<div class="w3-padding-large" id="main">
+		
+			<!-- Title -->
+			<header class="w3-container w3-padding-32 w3-center w3-grey" id="home">
+				<h1 class="w3-jumbo"><span class="w3-hide-small">Hello.</span> I am Divya Tadepalli.</h1>
+				<p>IT Analyst | Technical Support Specialist</p><br><br>
+				<img src="img/profilepic.png" alt="Profile Pic" class="profileimg">
+			</header>
+
+			<!-- About Section -->
+			<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+		  
+				<h2 class="w3-text-light-grey">About Me</h2>
+				<hr style="width:982px" class="w3-opacity">
+			
+				<p>A sportswoman who loves Problem solving. Detailed analysis is my forte and I leave no stones unturned.<br> My work style mantras - Commitment and Passion. An Aspiring Leader. </p>
+			
+				<h3 class="w3-padding-16 w3-text-light-grey">Overview</h3>
+				
+				<div class="w3-row w3-center w3-padding-16 w3-section w3-dark-grey">
+					<div class="w3-quarter w3-section"><span class="w3-xmedium">6+</span><br>Years of IT Experience</div>
+					<div class="w3-quarter w3-section"><span class="w3-xmedium">3+</span><br>Technologies Learnt</div>
+					<div class="w3-quarter w3-section"><span class="w3-xmedium">Expertise in </span><br>IT Service management</div>
+					<div class="w3-quarter w3-section"><span class="w3-xmedium">Explored Roles: </span><br>Support Engineer,<br>Business Analyst & Team Lead</div>
+				</div>
+				<br>
+				<p class="w3-wide">Retail Domain Knowledge</p>
+				<div class="w3-white"><div class="w3-dark-grey" style="height:30px;width:85%"><span class="w3-xmedium">&emsp;&emsp; 85%</span></div></div>
+				<p class="w3-wide">ITSM</p>
+				<div class="w3-white"><div class="w3-dark-grey" style="height:30px;width:85%"><span class="w3-xmedium">&emsp;&emsp; 85%</span></div></div>
+				<p class="w3-wide"> Debugging/Problem Solving/Requirement Analysis/Stakeholder management </p>
+				<div class="w3-white"><div class="w3-dark-grey" style="height:30px;width:100%"><span class="w3-xmedium">&emsp;&emsp; 100%</span></div></div>
+			
+				
+			
+				
+
+				<br><br>
+			
+				<!-- Skills Grid -->
+				<h3 class="w3-padding-16 w3-text-light-grey">Technical Skills</h3>
+				<div class="w3-row-padding" style="margin:0 -16px">
+					<div class="w3-half w3-margin-bottom">
+						<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+							<li class="w3-dark-grey w3-xlarge w3-padding-32">Languages & Frameworks</li>
+							<li class="w3-padding-16">
+								<img src="img/python.png" width=80 title="Python">&emsp;
+								<img src="img/java.png" width=60 title="Java">&emsp;
+								<br>
+								<img src="img/PLSQL.png" width=100title="PL/SQL">&emsp;
+								<img src="img/spring.png" width=60 title="Spring">&emsp;
+								<br>
+								<img src="img/hibernate.png" width=60 title="Hibernate">&emsp;
+							</li>
+						</ul>
+					</div>
+
+					<div class="w3-half">
+						<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+							<li class="w3-dark-grey w3-xlarge w3-padding-32">Tools</li>
+							<li class="w3-padding-16">
+								<img src="img/git.png" width=70 title="Git">&emsp;
+								<img src="img/bitbucket.png" width=70 title="Bitbucket">&emsp;
+								<img src="img/jenkins.png" width=70 title="Jenkins">&emsp;
+								<img src="img/sqldev.jpg" width=70 title="SQL Developer">&emsp;
+								<img src="img/confluence.png" width=70 title="Confluence">&emsp;
+								<br>
+								<img src="img/eclipse.png" width=70 title="Eclipse">&emsp;
+								<img src="img/jira.png" width=70 title="Jira">&emsp;
+								<img src="img/snow.png" width=70 title="Servicenow">&emsp;
+								<img src="img/sourcetree.png" width=70 height=50 title="Sourcetree">&emsp;
+								<img src="img/anaconda.png" width=70 title="Anaconda">&emsp;
+								<img src="img/spyder.png" width=66 title="Spyder">&emsp;
+								<img src="img/superputty.png" width=70 title="Superputty">&emsp;
+								<br>
+								
+							</li>							
+						</ul>
+					</div>
+				</div>
+				<div class="w3-row-padding" style="margin:0 -16px">
+					<div class="w3-half w3-margin-bottom">
+						<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+							<li class="w3-dark-grey w3-xlarge w3-padding-32">Infra Exposure</li>
+							<li class="w3-padding-16">
+								<img src="img/tomcat.png" width=50 title="tomcat">&emsp;
+								<img src="img/mule.png" width=50 title="Mule">&emsp;
+								<br>
+								<img src="img/activemq.png" width=50 title="Activemq">&emsp;
+								<img src="img/windows.jpg" width=50 title="Windows">&emsp;
+								<br>
+								<img src="img/unix.png" width=50 title="Unix">&emsp;
+							</li>							
+						</ul>
+					</div>
+
+				</div>
+			<br>
+				<!-- Testimonials -->
+				<h3 class="w3-padding-24 w3-text-light-grey">Work Experience</h3>                   
+								
+				<img src="img/tcsjpeg.jpg" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+			
+				<p><span class="w3-large w3-margin-left">Tata Consultancy Services</span>Chennai [Since Oct 2015].</p>
+				
+			</div>
+		  
+		   <!-- Projects Section -->
+			<div class="w3-padding-64 w3-content" id="projects">
+				<h2 class="w3-text-light-grey">Project</h2>
+				<hr style="width:982px" class="w3-opacity">
+
+				<div class="w3-row-padding" style="margin:0 -16px">
+					<div class="w3-full">
+						<p class="w3-xlarge">Advanced Analytics Consulting (AAC)</p>
+						<p class="w3-medium w3-text-grey" align="justify">&emsp;&emsp;<span class="bnchl"><br>Platform: Analytics Platform<br>Domain: Retail Business<br>Client: NielsenIQ<br>Regions: NA, EU, APMEA, NORDICS<br><br>AAC is a high revenue generating global project which has 4 web applications that enable data analysts to
+deliver business insights for FMCG retailers and manufacturers. The users run custom statistical models, View
+the generated coefficients and sales reports which will help them to identify the factors that have driven the
+sales and also interpret results based on 2 years of modelled sales data.</span>.</p>
+					</div>
+				<h3 class="w3-text-light-grey">Major Milestones </h3>
+				<hr style="width:982px" class="w3-opacity">
+				    <div class="w3-half">
+					<p class="w3-large">Migration of DC</p>
+					<p class="w3-small w3-text-grey" align="justify">&emsp;&emsp;<span class="bnchl">A company split up between Nielsen’s Connect and Media business was announced in 2019 and there was a need to migrate the DC of Connect business. As AAC fell under Connect portfolio, all the servers had to be migrated within a stipulated time. As a part of system management activity - Co-ordinated with the different ecosystems namely - Infra, DBA, App Dev, Support and Business and successfully led the support team for a seamless migration. It extensively involved hosting our application in new servers, installation of required software and configuration changes. As an SME and a lead was available throughout to guide the team and avoid criticalfailures</span>.</p>
+					</div>
+					<div class="w3-half">
+					<p class="w3-large">Implemented Process Improvements</p>
+					<p class="w3-small w3-text-grey" align="justify">&emsp;&emsp;<span class="bnchl">Apart from being a BA, having gained good grip on the application business, implemented 2 crucial process improvements which rendered a high level of savings in terms of effort and revenue.<br>▪ Automation of deletion functionality for the projects created in the application to manage the space issues more effectively.<br>▪ Implementation of Arthur Chatbot – used to mainly automate few repeated manual workarounds provided by the support team. Low waiting time for the users was ensured</span>.</p>
+					</div>	
+				</div>
+                <div class="w3-row-padding" style="margin:0 -16px"> 				
+					<div class="w3-half">
+					<p class="w3-large">Enhancements and App maintenance</p>
+					<p class="w3-small w3-text-grey" align="justify"><span class="bnchl">Developed 32 Enhancements and implemented 24 bug fixes and stabilized the application.<br>▪ Received appreciations and rewards from the Operations team for rendering outstanding support and quick resolutions without which it would have been impossible to deliver results for one of the crucial clients of Nielsen.<br>▪ Maintained the application green without occurrence of any SEV 1’s, by effective communication and troubleshooting skills.</span>.</p>
+					</div>	
+				</div>
+			</div>
+
+			<div class="w3-padding-64 w3-content" id="education">
+				<h2 class="w3-text-light-grey">Education</h2>
+				<hr style="width:982px" class="w3-opacity">
+
+				<div class="w3-row-padding" style="margin:0 -16px" align="center">
+					
+					<div class="w3-full">
+						<div class="flip-card">
+							<div class="flip-card-inner">
+								<div class="flip-card-front">
+									<p class="w3-large" align="center">Bachelor of Engineering</p>
+									<p class="w3-medium w3-text-grey" align="center"><b>Government College of Technology<br>Coimbatore</b></p>
+								</div>
+								<div class="flip-card-back">
+									<p class="w3-large" align="center">Civil Engineering</p>
+									<p class="w3-medium w3-text-grey" align="center"><b>Batch : 2011-15</b></p>
+									<p class="w3-medium w3-text-grey" align="center"><b>Percentage : 84.70</b></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<br>
+				
+				<div class="w3-row-padding" style="margin:0 -16px">
+					<div class="w3-half">
+						<div class="flip-card">
+							<div class="flip-card-inner">
+								<div class="flip-card-front">
+									<p class="w3-large" align="center">Higher Secondary School / 12<sup>th</sup></p>
+									<p class="w3-medium w3-text-grey" align="center"><b>Hindu Senior Secondary school<br>Chennai</b></p>
+								</div>
+								<div class="flip-card-back">
+									<p class="w3-large" align="center">CBSE (Central board)</p>
+									<p class="w3-medium w3-text-grey" align="center"><b>Batch : 2010-11</b></p>
+									<p class="w3-medium w3-text-grey" align="center"><b>Percentage : 77</b></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="w3-half">
+						<div class="flip-card">
+							<div class="flip-card-inner">
+								<div class="flip-card-front">
+									<p class="w3-large" align="center">Secondary School / 10<sup>th</sup></p>
+									<p class="w3-medium w3-text-grey" align="center"><b>Hindu Senior Secondary school<br>Chennai</b></p>
+								</div>
+								<div class="flip-card-back">
+									<p class="w3-large" align="center">CBSE (Central board)</p>
+									<p class="w3-medium w3-text-grey" align="center"><b>Batch : 2008-09<b></p>
+									<p class="w3-medium w3-text-grey" align="center"><b>Percentage : 88.4</b></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="w3-padding-64 w3-content" id="achievements">
+				<h2 class="w3-text-light-grey">Merits</h2>
+				<hr style="width:982px" class="w3-opacity">
+				<h3 class="w3-padding-16 w3-text-light-grey">Honours</h3>
+				<div class="w3-row-padding" style="margin:0 -16px">
+					
+					<p>&emsp;&emsp;<i class="fa fa-graduation-cap fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Received 4 awards in consecutive quarters for outstanding Service delivery.</p>
+					<p>&emsp;&emsp;<i class="fa fa-graduation-cap fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>National level throwball player. Captained the Tamil Nādu Women’s team 8 times and Chennai women’s team <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 7 times.Have played 18 nationals.</p>	
+					<p>&emsp;&emsp;<i class="fa fa-graduation-cap fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Awarded with the “Best Player of the tournament” in the women’s category in Federation Cup for the year 2019.</p>
+					<p>&emsp;&emsp;<i class="fa fa-graduation-cap fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Honorary position of Indian Spokesperson for Fistball Federation of India</p>
+
+				</div>
+				<h3 class="w3-padding-16 w3-text-light-grey">Scholastics</h3>
+				<div class="w3-row-padding" style="margin:0 -16px">
+					<p>&emsp;&emsp;<i class="fa fa-graduation-cap fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>ITIL (Internal TCS Certification)</p>
+					<p>&emsp;&emsp;<i class="fa fa-graduation-cap fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Leadership – EMBARK (Internal TCS Certification)b</p>
+					<p>&emsp;&emsp;<i class="fa fa-graduation-cap fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>ASCENT- The Foundation for your Leadership Journey (Internal TCS Certification)</p>
+				</div>
+				<br>
+
+			</div>
+
+
+
+			<!-- Contact Section -->
+			<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+				<h2 class="w3-text-light-grey">Contact Me</h2>
+				<hr style="width:982px" class="w3-opacity">
+
+				<div class="w3-row-padding" style="margin:0 -16px">
+					<div class="w3-half"><p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Email: divya.tadepalli2018@gmail.com</p></div>
+		            <br><br><br>
+					&emsp;Click&emsp;<a href="https://www.linkedin.com/in/divya-tadepalli-4a8205180/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>&emsp; for my LinkedIn profile.		
+				</div>			
+			</div>
+
+		  
+			<!-- Footer -->
+		  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+			
+		  </footer>
+		</div>
+
+	</body>
+</html>
